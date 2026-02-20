@@ -459,7 +459,7 @@ function PageResults({ restart, onPrev, formData }) {
           <div style={{ fontSize: 15, fontWeight: 700, color: t.heart, marginBottom: 10 }}>
             결과치에 대한 상담을 받아 보시겠습니까?
           </div>
-          <Btn primary onClick={() => {}}>상담 신청</Btn>
+          <Btn primary onClick={() => window.open("https://forms.gle/gHEzFtMbb5Kigb6CA", "_blank")}>상담 신청</Btn>
         </div>
       </div>
 
